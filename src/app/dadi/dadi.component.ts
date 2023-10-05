@@ -19,9 +19,5 @@ export class DadiComponent {
     if(this.dado1 == this.dado2){
       this.pari = true;
     }
-    else if(this.dado1 > this.dado2){
-      this.pari = false;
-      
-    }
   }
 }
